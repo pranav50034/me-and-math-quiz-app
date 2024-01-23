@@ -1,0 +1,5 @@
+.leader {
+    display: flex;
+    gap: var(--x3);
+    font-weight: var(--dense);
+}

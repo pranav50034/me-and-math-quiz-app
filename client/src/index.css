@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+:root {
+   /* Font size */
+   --font0: 10px;
+   --font0p5: 12px;
+   --font1: 14px;
+   --font2: 16px;
+   --font3: 18px;
+   --font4: 20px;
+   --font5: 24px;
+
+   /* Font weight */
+   --regular: 400;
+   --dense: 500;
+   --bold: 600;
+   --bolder: 700;
+
+   /* Spacing */
+   --px: 4px;
+   --x1: 8px;
+   --x1p2: 12px;
+   --x2: 16px;
+   --x2p5: 20px;
+   --x3: 24px;
+   --x4: 32px;
+   --x5: 40px;
+
+   /* Radius */
+   --radius0: 4px;
+   --radius1: 8px;
+   --radius2: 12px;
+}
+
+*,
+*::before,
+*::after {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+html:focus-within {
+   scroll-behavior: smooth;
+}
+
+body {
+   min-height: 100vh;
+   text-rendering: optimizeSpeed;
+   line-height: 1.5;
+   font-family: "Roboto", sans-serif;
+}
+
+img,
+picture {
+   max-width: 100%;
+   display: block;
+}
+
+input,
+button,
+textarea,
+select {
+   font: inherit;
+}
+
+ul {
+   list-style: none;
+}
+
+a {
+   text-decoration: none;
+   color: inherit;
+}
+
+.wrapper {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   padding: var(--x3) 0;
+   border: 1px solid red;
+}
